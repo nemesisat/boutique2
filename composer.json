@@ -1,0 +1,25 @@
+
+{
+  "name": "nemesisat/boutique2",
+  "type": "magento-module",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/nemesisat/boutique2",
+  "description": "This Repository for Test @Boutique 2",
+  "authors": [
+    {
+      "name": "Adeel Tahir",
+      "email": "adeel.taher@gmail.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "app/code/community/RedboxDigital/CustomerAttribute",
+        "app/code/community/RedboxDigital/CustomerAttribute"
+      ]
+    ]
+  }
+}
